@@ -1,0 +1,49 @@
+/* body {
+  width: 100%;
+  margin: 0;
+  margin-top: 0;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: black;
+} */
+
+/* .title h1 {
+  color: white;
+  direction: rtl;
+}
+ */
+
+.title {
+  background-color: blue;
+  margin-left: 0px;
+}
+
+.title h1 {
+  margin-bottom: 0px;
+}
+
+.content {
+  border: black;
+  display: block;
+  height: 100%;
+}
+
+#left {
+  background-color: gray;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+#right {
+  background-color: black;
+} 
+
+#topleft {
+  background-color: white;
+}
