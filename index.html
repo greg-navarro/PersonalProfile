@@ -12,64 +12,70 @@
   
 </body>
 
-
   <div class="container-fluid">
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-md" id="banner">
       <a class="navbar-brand" href="#">Milton Galena</a>
       
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-             <a class="nav-link" href="#">Resume</a>
+             <a class="nav-link pirate" href="#">Resume</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link pirate" href="#">Projects</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link pirate" href="#">Blog</a>
           </li>
         </ul>
       </div>
     </nav>
     
-
+    <!-- Body content -->
     <div class="row">
+      <!-- Left column -->
       <div class="col-md-4" id="left">
         <img class="rounded-circle mx-auto d-block profileimage" src="https://avatars.githubusercontent.com/u/26580715?v=4" alt="Profile Image">
         
-        <p class="lead"><em>Greetings!</em>  I am Milton Galena, reknowned reanimator of of dead flesh.  You remember me as the mad scientist whose meddlings in pursuit of greatness resulted in several zombie outbreaks, but such things happen, when you try to change the world for the better.  If you are reading this then perhaps you wish to make an appointment at my clinic to reanimate a deceased friend or loved one.</p>
+        <p class="lead text-justify"><em>Greetings!</em>  I am Milton Galena, reknowned reanimator of of dead flesh.  You remember me as the mad scientist whose meddlings in pursuit of greatness resulted in several zombie outbreaks, but such things happen, when you try to change the world for the better.  If you are reading this then perhaps you wish to make an appointment at my clinic to reanimate a deceased friend or loved one.</p>
       </div>
+      <!-- Right column -->
       <div class="col-md-8" id="right">
-        
+        <!-- Projects section -->
         <div class="project">
-          <div class="project-title"><h4 class="">Projects!</h4></div>
-          <div class="card">
-            <div class="card-header">
-              Iloveballs/Ihateballs -- A twist on the classic bouncing balls project.
+          <div class="project-title"><h2 class=""><span>PROJECTS</span></h2></div>
+          <div class="custom-card-container">
+            <div class="card">
+              <div class="card-header">
+                Animated Bouncing Balls
+              </div>
+              <div class="card-body">
+                <img class="img-thumbnail project-sample" src="https://raw.githubusercontent.com/genushomollama/iluvballs/main/Screen%20Shot%202021-05-19%20at%208.49.25%20PM.png" alt="Bouncing Balls Project Image">
+                <p class="card-text"><span class="text-muted uppercase">A twist on the classic bouncing balls project.</span><br/>Written in pure HTML/CSS/JavaScript.</p>
+                <a href="#" class="btn btn-primary">View repo on Github</a>
+                <a href="#" class="btn btn-primary">View project</a>
+              </div>
             </div>
-            <div class="card-body">
-              <img class="img-thumbnail project-sample" src="https://raw.githubusercontent.com/genushomollama/iluvballs/main/Screen%20Shot%202021-05-19%20at%208.49.25%20PM.png" alt="Bouncing Balls Project Image">
-              <p class="card-text">My take on the classic bouncing balls project. In this version there are two modes, Iloveballs and Ihateballs: if Iloveballs is selected each  click on the screen results in a new animated ball being spawned, if Ihateballs is selected then each click on a ball results in the deletion of that ball.</p>
-              <a href="#" class="btn btn-primary">View repo on Github</a>
-              <a href="#" class="btn btn-primary">View project</a>
+            
+            <div class="card">
+              <div class="card-header">
+                Automated LAN FileSharer
+              </div>
+              <div class="card-body">
+                <img class="img-thumbnail project-sample" src="https://raw.githubusercontent.com/genushomollama/327p2pfilesharing/main/code_shot.png" alt="Bouncing Balls Project Image">
+                <p class="card-text">This program is a peer-to-peer file sharing program for simple SOHO LANs.  It is written in python, and uses only low-level socket calls in all connections.</p>
+                <a href="#" class="btn btn-primary">View repo on Github</a>
+              </div>
             </div>
-          </div>
-          
-          <div class="card">
-            <div class="card-header">
-              Automated LAN FileSharer
-            </div>
-            <div class="card-body">
-              <img class="img-thumbnail project-sample" src="https://raw.githubusercontent.com/genushomollama/327p2pfilesharing/main/code_shot.png" alt="Bouncing Balls Project Image">
-              <p class="card-text">This program is a peer-to-peer file sharing program for simple SOHO LANs.  It is written in python, and uses only low-level socket calls in all connections.</p>
-              <a href="#" class="btn btn-primary">View repo on Github</a>
-            </div>
-          </div>
+          </div> 
         </div>
-        
+
+        <!-- Blogs section -->
         <div class="blogs">
-          <div class="blogs-title"><h4 class="">Blogs!</h4></div>
-          <div class="card">
+          <div class="blogs-title"><h2><span>BLOGS</span></h2></div>
+          <div class="custom-card-container">  
+            <div class="card">
               <div class="card-header">
                 Learning Bootstrap
               </div>
@@ -78,7 +84,8 @@
                 <p class="card-text">Making a simple coding resume & portfolio with HTML, CSS, JS, and Bootstrap</p>
                 <a href="#" class="btn btn-primary">Read blog</a>
               </div>
-            </div>
+              </div>
+          </div>
         </div>
       </div>
     </div>
