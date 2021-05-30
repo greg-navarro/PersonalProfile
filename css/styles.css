@@ -15,20 +15,14 @@
 }
 
 .navbar-brand a {
-  text-color: black;
+  color: black;
 }
 
 .project-sample {
   max-width: 50%;
 }
 
-#left {
-	padding: 75px 25px 0px 50px;
-}
 
-#right {
-	padding: 15px 200px 0px 100px;
-}
 
 #left p {
 	margin-top: 15px;
@@ -101,3 +95,26 @@ h2 span {
 .custom-project-container {
 	padding-top: .0.05rem;
 }
+
+/* MEDIA QUERIES */
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+/*@media (min-width: 576px) { ... }*/
+
+// Medium devices (tablets, 768px and up)
+/*@media (min-width: 768px) { ... }*/
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) { 
+	body { background-color: blue; }
+
+	#left { padding: 75px 25px 0px 50px; }
+
+	#right { padding: 15px 200px 0px 100px; }
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+/*@media (min-width: 1200px) { ... }*/
