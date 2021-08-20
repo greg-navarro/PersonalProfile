@@ -113,9 +113,3 @@ h2 span {
         column-count: 3;
     }
 }
-
-@media (min-width: 1200px) {
-    .card-columns {
-        column-count: 5;
-    }
-}
