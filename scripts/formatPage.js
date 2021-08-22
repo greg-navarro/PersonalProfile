@@ -6,17 +6,18 @@ function sizeElements() {
   let headerHeight = $(header).height();
   // get window height
   let windowHeight = $(window).height();
-  // set column heights to be the full pink flamingo dingo
+  // set column heights to be the full page
   let rowLeft = document.getElementById('left');
   let rowRight = document.getElementById('right');
   let rowHeight = windowHeight - headerHeight;
   $(rowLeft).height(rowHeight);
-  // set topleft
+  // set top left
   let leftHeight = Math.ceil(rowHeight*0.4);
-  console.log(rowHeight);
-  console.log(leftHeight);
+  // print out width of each column
+  console.log("Dimensions of window", $(window).width(), "x", $(window).height());
+  console.log("left column width", $(rowLeft).width());
+  console.log("right column width", $(rowRight).width());
   $(document.getElementById('topleft')).height(leftHeight);
-  // TODO set width
   return 0;
 }
 
