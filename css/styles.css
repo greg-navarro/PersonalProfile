@@ -20,6 +20,8 @@
 
 .project-sample {
   max-width: 90%;
+  text-align:center;
+  margin: auto;
 }
 
 #left {
