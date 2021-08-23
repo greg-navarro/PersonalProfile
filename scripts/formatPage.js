@@ -14,9 +14,9 @@ function sizeElements() {
   // set top left
   let leftHeight = Math.ceil(rowHeight*0.4);
   // print out width of each column
-  console.log("Dimensions of window", $(window).width(), "x", $(window).height());
-  console.log("left column width", $(rowLeft).width());
-  console.log("right column width", $(rowRight).width());
+  // console.log("Dimensions of window", $(window).width(), "x", $(window).height());
+  // console.log("left column width", $(rowLeft).width());
+  // console.log("right column width", $(rowRight).width());
   $(document.getElementById('topleft')).height(leftHeight);
   return 0;
 }
