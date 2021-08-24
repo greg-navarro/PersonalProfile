@@ -21,7 +21,10 @@
 .project-sample {
   max-width: 90%;
   text-align:center;
-  margin: auto;
+}
+
+.modal img {
+	margin-bottom: 0.5rem;
 }
 
 #left {
