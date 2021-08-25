@@ -133,6 +133,7 @@ h2 span {
 .link-icon-cont img {
 	width: 2rem;
 	height: auto;
+	margin-top: 1rem;
 }
 
  /* #github-logo {
@@ -151,6 +152,7 @@ h2 span {
 	color: black;
 	padding-left: auto;
 	padding-right: auto;
+	margin-top: 1rem;
 }
 
 #contact-me a {
