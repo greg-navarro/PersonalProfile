@@ -122,3 +122,37 @@ h2 span {
         column-count: 3;
     }
 }
+
+
+.link-icon-cont {
+	/* background-color: chartreuse; */
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.link-icon-cont img {
+	width: 2rem;
+	height: auto;
+}
+
+ /* #github-logo {
+	width: 50%; 
+	height: auto;
+	width: 2rem;
+}
+
+#linkedin-logo {
+	width: 2rem;
+	height: auto;
+}  */
+
+#contact-me {
+	text-align: center;
+	color: black;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#contact-me a {
+	color: black;
+}
